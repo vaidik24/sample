@@ -1,0 +1,38 @@
+/* App.css */
+
+.book-list {
+  margin-bottom: 20px;
+}
+
+.book-item {
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: darkgreen;
+}
+
+.error-container {
+  background-color: rgba(189, 33, 33, 0.3);
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: none; /* Initially hidden */
+}
+
+.error-message {
+  font-weight:100;
+  
+  margin-left: 4%;
+  color: rgb(255, 0, 0);
+}

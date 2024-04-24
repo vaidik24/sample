@@ -1,0 +1,51 @@
+/* App1.css */
+
+.container {
+  max-width: 100%;
+  width: 400px; 
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: auto;
+  max-width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.timeout-section {
+  position: relative;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.refresh-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  color: red;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
